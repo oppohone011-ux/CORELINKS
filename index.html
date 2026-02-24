@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CORE LINKS // AUTOMATION ARCHITECT</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;700&family=Orbitron:wght@400;900&family=Noto+Sans+JP:wght@300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="grid-overlay"></div>
+    <div class="scanline"></div>
+
+    <header>
+        <div class="logo-wrap">
+            <span class="glitch" data-text="CORE LINKS">CORE LINKS</span>
+            <span class="status-dot"></span>
+            <span class="system-status">SYSTEM ACTIVE</span>
+        </div>
+        <nav>
+            <a href="#profile">CORE_DATA</a>
+            <a href="#archives">ARCHIVES</a>
+            <a href="#logic">LOGIC</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-cyber">
+            <div class="hero-main">
+                
+                <div class="hero-visual-unit">
+                    <video autoplay muted loop playsinline class="hero-video-element">
+                        <source src="img/corporate-video.mp4" type="video/mp4">
+                    </video>
+                    
+                    <div class="hero-text-overlay">
+                        <h1 class="main-title">
+                            <span class="sub-title">本来、やる必要のない。</span><br>
+                            手作業を、<br>
+                            <span class="neon-text">利益ある時間へ。</span>
+                        </h1>
+                    </div>
+                </div>
+
+                <p class="hero-desc">
+                    <span class="desc-line">現場の停滞を<span class="desc-focus">ハック</span>し、経営に「<span class="desc-focus">余白</span>」を<span class="desc-focus">デプロイ</span>する。</span><br>
+                    <span class="desc-highlight">ITによる業務最適化の専門家。</span>
+                </p>
+                
+                <div class="action-area">
+                    <a href="#archives" class="cyber-button">MISSION_REPORTS_VIEW</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="profile" class="section">
+            <div class="section-header">
+                <span class="num">01</span>
+                <h2>OPERATOR_PROFILE</h2>
+            </div>
+            <div class="career-cards">
+                <div class="c-card">
+                    <div class="card-tag">QUALITY_ASSURANCE</div>
+                    <h3>品質保証 / 製造</h3>
+                    <p>トヨタ自動車九州での不具合分析に従事。「ミスを未然に防ぐ」品質管理の視点をシステム設計に反映します。</p>
+                </div>
+                <div class="c-card">
+                    <div class="card-tag">MISSION_CONTROL</div>
+                    <h3>陸上自衛隊</h3>
+                    <p>車両整備・補給管理を担当。規律と責任感に基づいた、確実かつ安定した「止まらないシステム」を構築します。</p>
+                </div>
+                <div class="c-card">
+                    <div class="card-tag">DIGITAL_DX</div>
+                    <h3>EC運営・RPA</h3>
+                    <p>Amazon・楽天運営の最前線を経験。現場の疲弊を生む単純作業を自作ツールで自動化してきた実戦派です。</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="archives" class="section">
+            <div class="section-header">
+                <span class="num">02</span>
+                <h2>MISSION_REPORTS</h2>
+            </div>
+
+            <div class="mission-card">
+                <div class="mission-header">
+                    <span class="mission-id">CASE_01</span>
+                    <h3>半導体工場 // 業務分析DX</h3>
+                </div>
+                <div class="mission-body">
+                    <div class="mission-visual">
+                        <img src="img/case01.png" alt="CASE_01: 半導体工場 業務分析DX" class="case-img">
+                        <div class="visual-placeholder">
+                            <div class="tech-stack">STACK: Python / OpenCV / PowerBI</div>
+                        </div>
+                    </div>
+                    <p class="client-label">依頼者：大手半導体関連 製造工場様</p>
+                    <div class="mission-flow">
+                        <div class="flow-box before">
+                            <span class="status-tag">BEFORE</span>
+                            <p>リーダーが1日中動画を凝視し手書きで計測。Excel/パワポ作成に毎月40時間以上を費やしていた。</p>
+                        </div>
+                        <div class="flow-arrow">▶</div>
+                        <div class="flow-box after">
+                            <span class="status-tag neon-blue">AFTER</span>
+                            <p>Python動画解析とPowerBI自動化を導入。映像読込のみで解析レポートが出力される仕組みを構築。</p>
+                        </div>
+                    </div>
+                    <div class="mission-impact">
+                        <div class="impact-title">TOTAL IMPACT</div>
+                        <div class="impact-value">工数を<span class="highlight">95%カット</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mission-card">
+                <div class="mission-header">
+                    <span class="mission-id">CASE_02</span>
+                    <h3>EC_BUSINESS // AUTOMATION</h3>
+                </div>
+                <div class="mission-body">
+                    <div class="mission-visual">
+                        <img src="img/SKU作成.png" alt="CASE_02: EC BUSINESS AUTOMATION" class="case-img">
+                        <div class="visual-placeholder">
+                            <div class="tech-stack">STACK: Scraping / OCR / API</div>
+                        </div>
+                    </div>
+                    <p class="client-label">依頼者：物販・EC運営企業様</p>
+                    <div class="mission-flow">
+                        <div class="flow-box before">
+                            <span class="status-tag">BEFORE</span>
+                            <p>競合リサーチと在庫転記に毎日3時間。入力漏れによる「在庫があるのに販売停止」等の機会損失が発生。</p>
+                        </div>
+                        <div class="flow-arrow">▶</div>
+                        <div class="flow-box after">
+                            <span class="status-tag neon-blue">AFTER</span>
+                            <p>24時間稼働スクレイピング、OCR伝票読込、Chatwork API連携による在庫DB自動更新を実装。</p>
+                        </div>
+                    </div>
+                    <div class="mission-impact">
+                        <div class="impact-title">TOTAL IMPACT</div>
+                        <div class="impact-value">ルーチンワークを<span class="highlight">「0分」</span>へ</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mission-card">
+                <div class="mission-header">
+                    <span class="mission-id">CASE_03</span>
+                    <h3>SURVEYING // DATA_HAX</h3>
+                </div>
+                <div class="mission-body">
+                    <div class="mission-visual">
+                        <img src="img/リネーム.png" alt="CASE_03: SURVEYING DATA HAX" class="case-img">
+                        <div class="visual-placeholder">
+                            <div class="tech-stack">STACK: Python / Metadata Hax</div>
+                        </div>
+                    </div>
+                    <p class="client-label">依頼者：公共事業請負 測量会社様</p>
+                    <div class="mission-flow">
+                        <div class="flow-box before">
+                            <span class="status-tag">BEFORE</span>
+                            <p>数千枚の写真を手動でリネーム・仕分け。納品前は全社員が数日間、深夜まで単純作業に従事。</p>
+                        </div>
+                        <div class="flow-arrow">▶</div>
+                        <div class="flow-box after">
+                            <span class="status-tag neon-blue">AFTER</span>
+                            <p>メタデータから判別し、一括リネーム・整理を行う専用アプリを開発。ボタン一つで納品形式へ。</p>
+                        </div>
+                    </div>
+                    <div class="mission-impact">
+                        <div class="impact-title">TOTAL IMPACT</div>
+                        <div class="impact-value">120時間を<span class="highlight">「15分」</span>に短縮</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mission-card">
+                <div class="mission-header">
+                    <span class="mission-id">CASE_04</span>
+                    <h3>FINTECH // LOGIC_ANALYSER</h3>
+                </div>
+                <div class="mission-body">
+                    <div class="mission-visual">
+                        <img src="img/fx-tool.png" alt="CASE_04: FINTECH LOGIC ANALYSER" class="case-img">
+                        <div class="visual-placeholder">
+                            <div class="tech-stack">STACK: Python / Statistics</div>
+                        </div>
+                    </div>
+                    <p class="client-label">依頼者：個人投資家・物販業者様</p>
+                    <div class="mission-flow">
+                        <div class="flow-box before">
+                            <span class="status-tag">BEFORE</span>
+                            <p>勘や目視での判断。客観的な勝率が不明なため、感情的な判断による損失リスクがあった。</p>
+                        </div>
+                        <div class="flow-arrow">▶</div>
+                        <div class="flow-box after">
+                            <span class="status-tag neon-blue">AFTER</span>
+                            <p>Pythonによる独自統計可視化ツール。期待値やドローダウンをリアルタイムで数値化。</p>
+                        </div>
+                    </div>
+                    <div class="mission-impact">
+                        <div class="impact-title">TOTAL IMPACT</div>
+                        <div class="impact-value">判断の根拠を<span class="highlight">「統計データ」</span>へ</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="logic" class="section">
+            <div class="section-header">
+                <span class="num">03</span>
+                <h2>OPTIMIZATION_LOGIC</h2>
+            </div>
+            <p class="logic-intro">社長の「手作業」を自動化し、ビジネスを加速させる構造図</p>
+            <div class="logic-container">
+                <div class="logic-box manual">
+                    <div class="logic-tag">LOG_01: MANUAL</div>
+                    <div class="window-frame">
+                        <div class="window-content"><img src="img/before.gif" alt="BEFORE" class="logic-img"></div>
+                    </div>
+                    <div class="human-label">社長が「手」で繋いでいる</div>
+                </div>
+                <div class="arrow-unit">
+                    <span class="arrow-icon">▶▶▶</span>
+                </div>
+                <div class="logic-box automation">
+                    <div class="logic-tag">LOG_02: OPTIMIZED</div>
+                    <div class="engine-unit">
+                        <div class="core-hub">AUTOMATION</div>
+                        <div class="scan-bar"></div>
+                    </div>
+                    <div class="result-tag">利益を生むための時間を創出</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="imageModal" class="modal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="expandedImg">
+        <div id="modalCaption"></div>
+    </div>
+
+    <footer>
+        &copy; 2026 CORE LINKS // ALL SYSTEMS OPERATIONAL
+    </footer>
+
+    <script>
+        const modal = document.getElementById("imageModal");
+        const modalImg = document.getElementById("expandedImg");
+        const captionText = document.getElementById("modalCaption");
+
+        document.querySelectorAll('.case-img').forEach(img => {
+            img.onerror = function() {
+                this.style.display = 'none';
+            };
+
+            img.addEventListener('click', function() {
+                modal.style.display = "flex";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+            });
+        });
+
+        document.querySelector('.modal-close').onclick = function() {
+            modal.style.display = "none";
+        };
+
+        modal.onclick = function(e) {
+            if (e.target === modal) {
+                modal.style.display = "none";
+            }
+        };
+    </script>
+
+</body>
+</html>
